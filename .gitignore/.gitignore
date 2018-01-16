@@ -1,0 +1,48 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <string>
+using namespace std;
+
+
+
+
+int main()
+{
+	int investment, interestrate, yrs;
+
+	cout << "Please enter the investment amount: ";
+	cin >> investment;
+	cout << endl;
+
+	cout << "Please enter the annual interest rate: ";
+	cin >> interestrate;
+	cout << endl;
+
+	cout << "Please enter the number of years the money will be invested for: ";
+	cin >> yrs;
+	cout << endl;
+
+	cout << investment << interestrate << yrs << endl;
+
+
+}
+
+
+/*Write a C++ console program that defines a function to calculate the future value of an investment. The function should take the following inputs defined as parameter variables:
+
+investment amount
+annual interest rate
+number of years
+compounding frequency (per year)
+To calculate the future value use the formula described here:
+
+http://www.thecalculatorsite.com/articles/finance/compound-interest-formula.php (Links to an external site.)Links to an external site.
+
+The function does not need to return any values, it can simply print the results directly.
+
+Prompt the user for input from main, but do not prompt them for the compounding frequency. 
+
+Then, call the function 4 times using different values for the compounding frequency, such as yearly (1), semi-yearly (2), monthly (12) and daily (365). 
+
+The output will demonstrate to the user that compounding more often will result in better returns on their investment.*/
